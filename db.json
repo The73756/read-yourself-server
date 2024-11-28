@@ -1,0 +1,137 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "surname": "Иванов",
+      "name": "Иван",
+      "patronymic": "Иванович",
+      "phone": "89990009900",
+      "email": "ivanov@gmail.com",
+      "password": "1234567890",
+      "login": "qwerty",
+      "role": "ADMIN"
+    },
+    {
+      "id": 2,
+      "surname": "Петров",
+      "name": "Иван",
+      "patronymic": "Иванович",
+      "phone": "89990009999",
+      "email": "petr@gmail.com",
+      "password": "123456",
+      "login": "asdf",
+      "role": "USER"
+    },
+    {
+      "surname": "Гавгав",
+      "name": "Гав",
+      "patronymic": "Иванович",
+      "phone": "89990009999",
+      "email": "petr@gmail.com",
+      "password": "12345678",
+      "login": "гавгав"
+    },
+    {
+      "surname": "Мяуууу",
+      "name": "МЯук",
+      "patronymic": "Мяукович",
+      "phone": "89990001122",
+      "email": "meow@mlfd.dfg",
+      "password": "123123123",
+      "login": "мяумяу"
+    },
+    {
+      "surname": "Кравченко",
+      "name": "Даниил",
+      "patronymic": "Андреевич",
+      "phone": "89963125592",
+      "email": "daniilkravcenko07970@gmail.com",
+      "password": "daniil123",
+      "login": "pperper"
+    }
+  ],
+  "authors": [
+    {
+      "id": 1,
+      "name": "Л. Н. Толстой"
+    },
+    {
+      "id": 2,
+      "name": "М. А. Булгаков"
+    },
+    {
+      "id": 3,
+      "name": "Автор"
+    }
+  ],
+  "genres": [
+    {
+      "id": 1,
+      "name": "Исторический роман"
+    },
+    {
+      "id": 2,
+      "name": "Сатира"
+    },
+    {
+      "id": 3,
+      "name": "Драма"
+    }
+  ],
+  "books": [
+    {
+      "id": 1,
+      "title": "Война и мир",
+      "authorId": 1,
+      "genreId": 1,
+      "image": "https://imo10.labirint.ru/books/488632/cover.jpg/242-0",
+      "year": 1861,
+      "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi consectetur deserunt, repellendus possimus aliquam nostrum odit tenetur, aliquid voluptatibus, provident magni minima quia iusto quisquam labore. Magni officiis quasi iure."
+    },
+    {
+      "id": 2,
+      "title": "Мастер и Маргарита",
+      "authorId": 2,
+      "genreId": 2,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkSFVTlEpt-SI4H8xv7rioc64RBomsIDbkiQ&s",
+      "year": 1900,
+      "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi consectetur deserunt, repellendus possimus aliquam nostrum odit tenetur, aliquid voluptatibus, provident magni minima quia iusto quisquam labore. Magni officiis quasi iure."
+    },
+    {
+      "id": 3,
+      "title": "Книга",
+      "authorId": 3,
+      "genreId": 3,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvHyNRzw3L738PKTjLMfeE42x0oDAxbV8JEg&s",
+      "year": 2006,
+      "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi consectetur deserunt, repellendus possimus aliquam nostrum odit tenetur, aliquid voluptatibus, provident magni minima quia iusto quisquam labore. Magni officiis quasi iure."
+    },
+    {
+      "id": 4,
+      "title": "Тест",
+      "authorId": 1,
+      "genreId": 3,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTf1COK5-zcBc9_nzM3bl7ik6_fhbn4WoDv5g&s",
+      "year": 1890,
+      "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi consectetur deserunt, repellendus possimus aliquam nostrum odit tenetur, aliquid voluptatibus, provident magni minima quia iusto quisquam labore. Magni officiis quasi iure."
+    },
+    {
+      "id": 5,
+      "title": "Гав",
+      "authorId": 3,
+      "genreId": 1,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqZnyCUc2aFMTTAEts8xgsxXVqNY7F_Ac0dw&s",
+      "year": 1690,
+      "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi consectetur deserunt, repellendus possimus aliquam nostrum odit tenetur, aliquid voluptatibus, provident magni minima quia iusto quisquam labore. Magni officiis quasi iure."
+    },
+    {
+      "id": 6,
+      "title": "Аа книга",
+      "authorId": 1,
+      "genreId": 2,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-2I25kwJtb4oSuDVKRRO_AxyHycCD758-Aw&s",
+      "year": 2023,
+      "desc": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi consectetur deserunt, repellendus possimus aliquam nostrum odit tenetur, aliquid voluptatibus, provident magni minima quia iusto quisquam labore. Magni officiis quasi iure."
+    }
+  ]
+}
